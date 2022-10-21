@@ -276,6 +276,30 @@ footer{
     flex-direction: column;
 }
 
+/* ¿QUIENES SOMOS? */
+
+.nos{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    margin-right:  50px;
+    
+}
+
+.nos .descrip img{
+    height: 450px;
+    width: 350px;
+    border: 3px skyblue solid;
+}
+
+.nos .descrip h2{
+    justify-content: space-around;
+    font-size: 50px;
+    color: #e38100;
+}
+
 /* medias queries */
 
 @media screen and (max-width:1024px){
