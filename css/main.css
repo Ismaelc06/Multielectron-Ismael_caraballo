@@ -188,6 +188,71 @@ main {
     width: 200px;
 }
 
+/* pie de pagina */
+
+.pie-pag{
+    width: 100%;
+    background-color: rgb(60, 60, 60);
+    font-family: 'Nunito', sans-serif;
+}
+
+.pie-pag .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pag .grupo-1 .box form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pag .grupo-1 .box h2{
+    color: rgb(214, 121, 67);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.lis{
+    margin-bottom: 10px;
+    color: #e38100;
+}
+
+.lis a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.pie-pag .grupo-1 .red-social a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    color: #ffffff;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pag .grupo-1 .red-social a:hover{
+    color: yellow;
+}
+
+.pie-pag .grupo-2 h2{
+    background-color: #e38100;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+
+}
+
 /* pie pagina 2 */
 footer{
     background-color: rgb(60, 60, 60);
